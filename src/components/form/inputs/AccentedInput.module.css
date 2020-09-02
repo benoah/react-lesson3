@@ -1,0 +1,13 @@
+.accented {
+    composes: input from "./Input.module.css";
+    border-color:var(--colour-primary);
+}
+
+
+
+
+.accented:placeholder {
+    border-color:var(--colour-primary);
+}
+
+
